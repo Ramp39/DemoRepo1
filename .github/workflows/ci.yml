@@ -9,5 +9,10 @@ jobs:
   steps:
    - name: Step1
      run: echo "Hello my name $HOSTNAME"
+   - name: Step2
+     run: |
+       echo " Hello Team Today is $`date` "
+       
+       
    
  
