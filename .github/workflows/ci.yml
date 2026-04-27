@@ -1,0 +1,13 @@
+name: "CI workflow"
+on: 
+  push
+
+jobs:
+ build:
+  runs-on: ubuntu-latest
+
+  steps:
+   - name: Step1
+     run: echo "Hello my name $HOSTNAME"
+   
+ 
